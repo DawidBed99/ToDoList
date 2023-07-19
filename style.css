@@ -106,3 +106,9 @@ button:hover {
 .hidden {
   display: none;
 }
+
+@media screen and (width<=700px) {
+  .buttons {
+    scale: 0.8;
+  }
+}
